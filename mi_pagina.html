@@ -5,56 +5,62 @@
         <title>
             Javier Garcia Hernandez
         </title>
-        <link rel="icon" href="Imagenes/download.jfif">
+        <link rel="icon" href="Imagenes/download.jfif"> 
+        <link rel="stylesheet" href="css/estilos.css">
     </head>
     <body>
-        <header>
+        <header class="header">
            <div>
-            <figure>
+            <figure class="logo">
                 <img src="Imagenes/images (1).png" alt="Logo de Javier Garcia"> 
             </figure>
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
-                        <a href="">portafolio</a>
+                        <a class="link" href="#portafolio">Portafolio</a>
                     </li>       
                     <li>
-                        <a href="">Experiencia</a>
+                        <a class="link" href="#eventos">Experiencia</a>
                     </li>        
                     <li>
-                        <a href="">Trabajemos juntos</a>
+                        <a class="link" href="#contacto">Trabajemos juntos</a>
                     </li>    
                 </ol>
             </nav>
             </div>
         </header>
-        <section>
+        <section class="hero">
             <h1>
-                Hola soy Javier Garcia <br><strong>Ingeniero y desarrollador frontend</strong> <br>Con poca experiencia pero ganas y talento
+               - Hola soy Javier Garcia <br><strong>Ingeniero y desarrollador frontend</strong> <br>Con poca experiencia pero ganas y talento
             </h1>
             <img src="Imagenes/chale.png" width="400" height="300" alt="Javier"> 
         </section>
-        <section>
-            <h2>Portafolio</h2>
-            <article>
-                <h3>Desarrollador</h3>
-                <p><small><strong>Fecha:</strong> 12/07/19</small></p>
-                <p><small><strong>Puedes verlo en:</strong> Platzi</small></p>
-                <p>Platzi sera una de las mejores inversiones porque me guiara hacia el mundo de la tecnologia</p>
-                <img src="Imagenes/download.jfif" alt="desarrollador">
+        <section id=portafolio class="portfolio">
+            <h2>Portafolio (Proyectos destacados)</h2>
+            <article class="project">
+                <h3 class="project-title">Desarrollador</h3>
+                <p class="projet-date"><small><strong>Fecha:</strong> 12/07/19</small></p>
+                <p class="projet-url"><small><strong>Puedes verlo en:</strong> Platzi</small></p>
+                <p class="project-description">Platzi sera una de las mejores inversiones porque me guiara hacia el mundo de la tecnologia</p>                
+                <figure class="projet-imageConteiner">
+                    <img src="Imagenes/download.jfif" alt="desarrollador">
+                </figure>
             </article>
         </section>
-        <section>
+        <section class="event" id="eventos">
             <h2>Mas sobre mi experiencia</h2>
-            <article>
-                <img src="Imagenes/chale.png" alt="Grupo"> 
-                <h3>Grupo Mecanica Agricola</h3>
-                <p>Una de las mejores experiencia en mi vida</p>
-                <a href=""> Ver trayectoria</a>
+            <article class="">
+                <figure class="event-imageConteiner">
+                    <img src="Imagenes/chale.png" alt="Grupo"> 
+                </figure>
+                
+                <h3 class="event-title">Grupo Mecanica Agricola</h3>
+                <p class="event-description">Una de las mejores experiencia en mi vida</p>
+                <a class="event-url" href=""> Ver trayectoria</a>
             </article>
         </section>
-        <section>
-            <h3>Creamos algo juntos?</h3>
+        <section id="contacto">
+            <h3>¿Creamos algo juntos?</h3>
             <form action="/suscription"></form>
             <input type="text" placeholder="Dejame tu email" value="@email.com">
             <button>Enviar</button>
