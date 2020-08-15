@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es"> <!--atributo que determina el lenguaje de la pagina [cambiarlo a ingles cuando termine]-->
     <head>
-        <meta charset="UTF8"/>
+        <meta charset="UTF8"/> <!--tipo de caracteres usados en la pagina para que no haya discrepancias en diferentes navegadores-->
         <title>
             Javier Garcia Hernandez
         </title>
         <link rel="icon" href="Imagenes/download.jfif"> 
-        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/estilos.css"> <!--Este es el link a los estilos en css-->
     </head>
     <body>
-        <header class="header">
-           <div>
+        <header class="header"> <!--para mayor comodidad y para enlazar con mas facilidad los estilos css se crean selectores. Este es un selector de clase . Y comienzo del header-->
+           <div> <!--la divicion que lleva la pagina-->
             <figure class="logo">
                 <img src="Imagenes/images (1).png" alt="Logo de Javier Garcia"> 
             </figure>
             <nav class="menu">
                 <ol>
-                    <li>
-                        <a class="link" href="#portafolio">Portafolio</a>
+                    <li> <!--etiqueta de lista ordenada-->
+                        <a class="link" href="#portafolio">Portafolio</a> <!--aqui tenemos un ejemplo de enlace a nuestra propia pagina se pone gato[#] y despues la identificacion [id]-->
                     </li>       
                     <li>
                         <a class="link" href="#eventos">Experiencia</a>
@@ -33,9 +33,9 @@
             <h1>
                - Hola soy Javier Garcia <br><strong>Ingeniero y desarrollador frontend</strong> <br>Con poca experiencia pero ganas y talento
             </h1>
-            <img src="Imagenes/chale.png" width="400" height="300" alt="Javier"> 
+            <img src="Imagenes/chale.png" width="400" height="300" alt="Javier"> <!--en nuestra primera imagen aclaramos el ancho y largo de la imagen en pixeles. Con el atributo [alt] mencionamos la palabra que estara si no carga la imagen-->
         </section>
-        <section id=portafolio class="portfolio">
+        <section id=portafolio class="portfolio"> <!--la pagina estara devidida en secciones. Etiqueta de secciones y su jerarquia -->
             <h2>Portafolio (Proyectos destacados)</h2>
             <article class="project">
                 <h3 class="project-title">Desarrollador</h3>
@@ -47,7 +47,7 @@
                 </figure>
             </article>
         </section>
-        <section class="event" id="eventos">
+        <section class="event" id="eventos"> <!--las identificaciones son utiles para enlazar secciones en nuestra propia pagina [id]-->
             <h2>Mas sobre mi experiencia</h2>
             <article class="event">
                 <figure class="event-imageConteiner">
@@ -56,7 +56,7 @@
                 
                 <h3 class="event-title">Grupo Mecanica Agricola</h3>
                 <p class="event-description">Una de las mejores experiencia en mi vida</p>
-                <a class="event-url" href=""> Ver trayectoria</a>
+                <a class="event-url" href=""> Ver trayectoria</a> <!--aqui tenemos un ejemplo de un enlace-->
             </article>
         </section>
         <section id="contacto" class="contact">
