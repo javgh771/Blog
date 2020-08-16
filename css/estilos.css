@@ -1,3 +1,36 @@
+.header{
+    background-color: #2c302c; /* background-color: indica el color de fondo, se puede usar en combinación con la imagen.*/
+    color: white; 
+}
+.header a {
+    color: cornsilk;
+}
+.hero{
+    background-image: url(../Imagenes/images\ \(1\).png);
+    background-color:#2c302c; 
+    background-size: 500px 400px;/*background-size: se puede indicar en valores de alto y ancho o en alguna de las palabras claves permitidas: cover o contain*/
+    background-repeat: no-repeat; /*background-repeat: indica el método de repetición de la imagen de fondo, puede ser: repeat, repeat-x, repeat-y o no-repeat.*/
+    background-position-x: right; /*background-position: indica la posición de la imagen dentro del elemento, puede indicarse en unidades o en palabras claves como center, left, top y right.*/
+
+}
 body{
-    background:coral;
+    font-family: 'Montserrat', sans-serif, Arial ; /* font-family: atributo que define el tipo de letra del apartado*/
+    font-weight: normal;
+
+}
+h1{
+    font-family: 'Times New Roman', Times, serif; /*cuando el tipo de letra tiene más de dos se pone entre comillas*/
+    font-size: 40px; /* El tamaño de la fuente del apartado*/ 
+    line-height: 150%; /*la separacion de lineas [alto de linea]*/
+    font-weight: 500; /* El grosor de la fuente o peso de fuente. Puedes poner [normal]*/
+    letter-spacing: -.2px;/* La separacion entre letras*/
+    text-transform: uppercase;/* Las letras se aplican diferentes caracteristicas*/
+    /*text-decoration: underline;*//*Las propiedades en todo el texto*/
+}
+.project-detalis{
+    width: 500px; /*Dimencionamos el ancho del elemento*/
+    height: 400px; /* Dimencionamos el largo del elemento*/
+}
+.project-imageConteiner {
+    width: 500px;
 }

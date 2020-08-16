@@ -6,13 +6,15 @@
             Javier Garcia Hernandez
         </title>
         <link rel="icon" href="Imagenes/download.jfif"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Montserrat&display=swap">
         <link rel="stylesheet" href="css/estilos.css"> <!--Este es el link a los estilos en css-->
+        
     </head>
     <body>
         <header class="header"> <!--para mayor comodidad y para enlazar con mas facilidad los estilos css se crean selectores. Este es un selector de clase . Y comienzo del header-->
            <div> <!--la divicion que lleva la pagina-->
             <figure class="logo">
-                <img src="Imagenes/images (1).png" alt="Logo de Javier Garcia"> 
+                <img src="Imagenes/images (1).png" width="150" height="100" alt="Logo de Javier Garcia"> 
             </figure>
             <nav class="menu">
                 <ol>
@@ -31,17 +33,20 @@
         </header>
         <section class="hero">
             <h1>
-               - Hola soy Javier Garcia <br><strong>Ingeniero y desarrollador frontend</strong> <br>Con poca experiencia pero ganas y talento
+                Hola soy Javier Garcia <br><strong>Ingeniero y desarrollador frontend</strong> <br>Con poca experiencia pero ganas y talento
             </h1>
             <img src="Imagenes/chale.png" width="400" height="300" alt="Javier"> <!--en nuestra primera imagen aclaramos el ancho y largo de la imagen en pixeles. Con el atributo [alt] mencionamos la palabra que estara si no carga la imagen-->
         </section>
         <section id=portafolio class="portfolio"> <!--la pagina estara devidida en secciones. Etiqueta de secciones y su jerarquia -->
             <h2>Portafolio (Proyectos destacados)</h2>
             <article class="project">
+                <div class="proyect-details"> <!--Dividimos las seccioenes para poder hacer un uso adecuado de las clases y poder dividir las secciones -->
                 <h3 class="project-title">Desarrollador</h3>
                 <p class="projet-date"><small><strong>Fecha:</strong> 12/07/19</small></p>
                 <p class="projet-url"><small><strong>Puedes verlo en:</strong> Platzi</small></p>
                 <p class="project-description">Platzi sera una de las mejores inversiones porque me guiara hacia el mundo de la tecnologia</p>                
+                </div>
+                
                 <figure class="projet-imageConteiner">
                     <img src="Imagenes/download.jfif" alt="desarrollador">
                 </figure>
